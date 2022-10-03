@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+
+body {
+   font-family: 'Lato';
+   color: #424551;
+}
+
+.page {
+   max-width: 1230px;
+   margin: 0 auto;
+}
+
+[class*="__container"] {
+   max-width: 810px;
+}
+
+.page__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 26px;
+}
+
+.page__image {
+   max-width: 100%;
+   margin-bottom: 60px;
+}
+
+.page__main-text {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+
+.page__text {
+   line-height: 160%;
+   margin-bottom: 48px;
+}
+
+.page__text p {
+   margin-bottom: 22px;
+}
+
+.page__blokquote {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 48px;
+}
+
+.page__text ul {
+   margin-bottom: 24px;
+}
+
+.page__text li {
+   margin-bottom: 4px;
+   padding-left: 32px;
+}
+
+.block {}
+
+.block__container {
+
+}
+
+.block__background {
+padding: 15px;
+background-color: green;
+}
+
+.block__background-1 {
+   padding: 15px;
+   background-image: url(../img/01.png);
+   }
+
+   .block__background-2 {
+      background-image: url(../img/No_image_available.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      }
+      .block__background-3 {
+         background-image: url(../img/image.png);
+         background-repeat: repeat;
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover
+         }
+
+         .block__background-4{
+            background: yellow url(../img/No_image_available.png) center / cover no-repeat;
+         }
+
+         .block__background-5{
+            background: rgba(101, 143, 95, 0.452) url(../img/No_image_available.png) 0 0 / 200px;
+         }
